@@ -70,4 +70,9 @@ This project was developed as part of the CodeAlpha Cyber Security Internship.
 
 ## Author
 
-Cyber Security Intern – CodeAlpha
+## Author
+
+**MAGUDESWARAN S**
+
+Cyber Security Intern
+CodeAlpha Internship Program
