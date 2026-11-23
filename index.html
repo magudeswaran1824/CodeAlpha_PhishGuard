@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PhishGuard is a cybersecurity awareness platform that teaches users how to identify phishing attacks and stay safe online.">
+    <title>PhishGuard | Cybersecurity Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="#home" class="logo">🛡️ PhishGuard</a>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#learn">Learn</a>
+        <a href="#examples">Examples</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <span class="tag">CYBERSECURITY AWARENESS PLATFORM</span>
+        <h1>Think Before You Click.</h1>
+        <p>
+            Learn to recognize phishing attacks, identify suspicious
+            messages and protect your digital identity.
+        </p>
+        <a href="#learn" class="btn">Explore Learning →</a>
+    </section>
+
+    <section class="stats">
+        <div class="stat-card">
+            <h2>03</h2>
+            <p>Phishing Types</p>
+        </div>
+        <div class="stat-card">
+            <h2>05</h2>
+            <p>Quiz Questions</p>
+        </div>
+        <div class="stat-card">
+            <h2>100%</h2>
+            <p>Learning Focus</p>
+        </div>
+    </section>
+
+    <section id="learn" class="section">
+        <span class="tag">LEARN THE BASICS</span>
+        <h2>Understanding Phishing</h2>
+        <p>
+            Phishing is a cyber attack in which attackers impersonate
+            trusted organizations or people to trick users into
+            revealing sensitive information.
+        </p>
+
+        <div class="cards">
+            <article class="card">
+                <div class="card-icon">📧</div>
+                <h3>Email Phishing</h3>
+                <p>Fraudulent emails designed to deceive recipients.</p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">📱</div>
+                <h3>SMS Phishing</h3>
+                <p>Suspicious text messages used to trick mobile users.</p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">🌐</div>
+                <h3>Website Phishing</h3>
+                <p>Fake websites designed to imitate legitimate services.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="examples" class="section">
+        <span class="tag">IDENTIFY THE THREATS</span>
+        <h2>Recognize a Phishing Attempt</h2>
+
+        <div class="warning">
+            <h3>⚠️ Sample Suspicious Email</h3>
+            <p><b>Subject:</b> Urgent! Your account needs verification.</p>
+            <p><b>Message:</b> Your account may be suspended.
+                Please verify your information immediately.</p>
+            <p class="danger">
+                Training example only — this is not a real email.
+            </p>
+        </div>
+
+        <h3>Common Warning Signs</h3>
+
+        <div class="cards">
+            <article class="card">
+                <h3>🚨 Urgent Requests</h3>
+                <p>Messages that pressure you to act immediately.</p>
+            </article>
+
+            <article class="card">
+                <h3>🔗 Suspicious Links</h3>
+                <p>Unexpected links or misleading website addresses.</p>
+            </article>
+
+            <article class="card">
+                <h3>🔐 Sensitive Information</h3>
+                <p>Unexpected requests for passwords or OTPs.</p>
+            </article>
+        </div>
+
+        <div class="tips">
+            <h3>How to Stay Protected</h3>
+            <ul>
+                <li>Verify the sender's email address.</li>
+                <li>Never share passwords or OTPs.</li>
+                <li>Avoid unexpected links and attachments.</li>
+                <li>Enable multi-factor authentication.</li>
+                <li>Report suspicious messages.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="quiz" class="section">
+        <span class="tag">TEST YOUR KNOWLEDGE</span>
+        <h2>Phishing Awareness Quiz</h2>
+        <p>Answer five questions and check your cybersecurity knowledge.</p>
+
+        <div class="quiz-box">
+            <div class="quiz-top">
+                <span id="questionNumber">Question 1 of 5</span>
+                <span id="progressText">20%</span>
+            </div>
+
+            <div class="progress">
+                <div id="progressBar"></div>
+            </div>
+
+            <h3 id="question">Loading question...</h3>
+
+            <div id="answers"></div>
+
+            <p id="feedback" aria-live="polite"></p>
+
+            <button id="nextBtn" class="btn" hidden>
+                Next Question →
+            </button>
+
+            <div id="result" hidden>
+                <h2 id="finalScore"></h2>
+                <p id="resultMessage"></p>
+                <button id="restartBtn" class="btn">
+                    Restart Quiz ↻
+                </button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <h3>🛡️ PhishGuard</h3>
+    <p>Building a safer digital world through cybersecurity awareness.</p>
+    <p>Developed using HTML, CSS and JavaScript.</p>
+    <p>CodeAlpha Cyber Security Internship Project</p>
+    <p>© 2026 PhishGuard. Educational project.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
